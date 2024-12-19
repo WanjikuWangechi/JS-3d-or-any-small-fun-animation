@@ -50,8 +50,8 @@ $(function () {
 
         // Draw the tail
         comet.tail.forEach((t, index) => {
-            let opacity = (index + 1) / comet.tail.length; // Gradually fade the tail
-            ctx.fillStyle = `rgba(255, 255, 0, ${opacity})`; // Yellow color
+            let opacity = (index + 1) / comet.tail.length; 
+            ctx.fillStyle = `rgba(255, 255, 0, ${opacity})`;
             ctx.beginPath();
             ctx.arc(t.x, t.y, comet.r * (opacity * 0.7 + 0.3), 0, Math.PI * 2, true);
             ctx.fill();

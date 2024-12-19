@@ -4,7 +4,7 @@ html, body {
     height: 100%;
     position: absolute;
     overflow: hidden;
-    background: linear-gradient(135deg, rgba(180,186,214,1) 0%, rgba(232,203,192,1) 100%);
+    background: linear-gradient(135deg, rgb(65, 93, 218) 0%, rgba(221, 91, 43, 0.61) 100%);
 }
   
 .header {text-align: center; margin: 30px 0;}
