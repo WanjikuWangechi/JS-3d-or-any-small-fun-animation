@@ -1,4 +1,8 @@
 /* Set the colour and the position of the background and the elements */
+@font-face {
+  font-family: 'Brush Script MT';
+  src: url('https://fonts.googleapis.com/css2?family=Brush+Script+MT&display=swap');
+}
 body {
   display: flex;
   justify-content: center;
@@ -60,12 +64,12 @@ body {
 
 .text {
   position: absolute;
-  font-family:  'Brush Script MT', cursive;
+  font-family:  'Brush Script MT' , cursive;
   font-size: 28px;
-  text-align: left;
-  line-height: 30px;
-  top: 19px;
-  left: 85px;
+  text-align: center;
+  line-height: 20px;
+  top: 20px;
+  left: 65px;
   color: #003049;
 }
 
@@ -74,8 +78,8 @@ body {
   display: inline-block;
   height: 30px;
   margin: 0 10px;
-  position: relative;
-  top: 110px;
+  position: absolute;
+  top: 100px;
   left: 105px;
   transform: rotate(-45deg);
   width: 30px;
